@@ -16,14 +16,33 @@ This is my personal portfolio, showcasing my work and skills as a Full Stack Dev
 - Clone the repository:
 
 # Installation
+1. Clone Repository
+  ```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+2. Navigate to the project directory:
+```bash
+cd portfolio
+```
+3. Install dependencies:
+```bash
+npm install
+```
+4. Start the development server:
+```bash
+npm run dev
+```
+# Deployment
+To build the project for production:
+```bash
+npm run build
+```
+The optimized files will be generated in the dist folder, ready for deployment.
 
-
-
-
-Contributing
+# Contributing
 Feel free to open an issue or submit a pull request if you find any bugs or have suggestions for improvements!
 
-License
+# License
 This project is licensed under the MIT License.
 
 Let me know if you'd like any changes!
